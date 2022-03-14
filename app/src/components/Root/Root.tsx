@@ -59,7 +59,7 @@ const Root = () => {
             <AppointmentContext.Provider value={{appointment, setAppointment}}>
                 <Navigation />
                 <Content>
-                    <Heading>Amazing site</Heading>
+                    <Heading>Lendi Appointments</Heading>
                     <AppointmentSelect />
                 </Content>
             </AppointmentContext.Provider>
